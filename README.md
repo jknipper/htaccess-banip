@@ -10,7 +10,7 @@ Just copy the banip folder in your webroot and add the following line to your .h
 
     ErrorDocument 401 /banip/banip.php
 
-See head of banip.php for max login retries and find time. The script appends "DENY FROM <IP-address>" to your htaccess file. AllowOverride[http://httpd.apache.org/docs/2.2/en/mod/core.html#allowoverride] must be set accordingly in your virtual host configuration.
+See head of banip.php for max login retries and find time. The script appends "DENY FROM IP-address" to your htaccess file. [AllowOverride](http://httpd.apache.org/docs/2.2/en/mod/core.html#allowoverride) must be set accordingly in your virtual host configuration.
 
 License
 -------
